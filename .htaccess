@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^www\.likeac\.at$ [NC]
+RewriteRule ^(.*)$ http://www.likeac.at/$1 [R=301,L]
