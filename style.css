@@ -1,16 +1,21 @@
 body {
     background-color:#fff;
     margin:0;
+    font-family: 'Verdana','Arial','Helvetica', sans-serif;
 }
 
 #main {
     margin-top:30px;
     padding-left:550px;
-    min-height:550px;
+    height:510px;
 
     background-image:url(pics/cat.jpg);
     background-position:left top;
     background-repeat: no-repeat;
+}
+
+#foot {
+    padding:10px;
 }
 
 h1 {
@@ -22,16 +27,17 @@ h1 {
 
 h2 {
     color:#000;
-    font-family: 'Verdana','Arial','Helvetica', sans-serif;
     font-size:1.3em;
-    margin-left:30px;
-    margin-top:30px;
+    margin:30px 0px 20px 30px;
 }
 
 #dates {
     margin-left:50px;
     margin-top:10px;
-    font-family: 'Verdana','Arial','Helvetica', sans-serif;
+}
+
+#dates li {
+    margin-bottom:10px;
 }
 
 #dates .date {
@@ -48,5 +54,10 @@ h2 {
     font-size:0.8em;
     padding-left:5px;
     width:280px;
+}
 
+#foot a {
+    font-size:0.8em;
+    text-decoration:none;
+    color: #515151;
 }
