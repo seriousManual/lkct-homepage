@@ -63,7 +63,8 @@ h2 {
 }
 
 #dates li {
-    margin-bottom:3px;
+    margin-bottom:14px;
+    line-height:25px;
 }
 
 #dates .date {
