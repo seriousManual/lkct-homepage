@@ -62,12 +62,12 @@ h2 {
     text-decoration:none;
 }
 
-#dates li {
+.dates li {
     margin-bottom:14px;
     line-height:25px;
 }
 
-#dates .date {
+.dates .date {
     width:80px;
     float:left;
     text-align:right;
@@ -75,8 +75,12 @@ h2 {
     color:#ae0303;
 }
 
-#dates .desc {
+.dates .desc {
     float:left;
     padding-left:8px;
     width:450px;
+}
+
+.dates .past div {
+    text-decoration:line-through;
 }
