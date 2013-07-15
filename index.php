@@ -1,3 +1,25 @@
+<?php
+$dates = include('inc/dates.inc.php');
+
+function parseDates($dates, $when) {
+    $now = new DateTime();
+    $now->setTime(0,0,0);
+    $res = Array();
+
+    foreach($dates as $date) {
+        if($date['date'] < $now && $when == 'past') {
+            $res[] = $date;
+        }
+
+        if($date['date'] >= $now && $when == 'new') {
+            $res[] = $date;
+        }
+    }
+
+    return $res;
+}
+?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -20,10 +42,16 @@
                 <h2>Dates</h2>
                 <div class="box">
                     <ul class="dates">
-                        <li class="clearfix">
-                            <div class="date">20.07.2013</div>
-                            <div class="desc"><a href="http://www.pyraser-classic-rock.de/">Pyraser Classic Rock Night</a> @ Brauereigutshof Pyras /w <a href="http://www.doropesch.com/">Doro</a>, <a href="http://www.rage-on.de/">Rage</a>, Krokus and others.</div>
-                        </li>
+                        <?php
+                            foreach(parseDates($dates, 'new') as $date) {
+                                $a = $date['date'];
+
+                                echo '<li class="clearfix">';
+                                echo '<div class="date">' . $a->format('d.m.Y') . '</div>';
+                                echo '<div class="desc">' . $date['desc'] . '</div>';
+                                echo '</li>';
+                            }
+                        ?>
                     </ul>
                 </div>
 
@@ -50,22 +78,16 @@
                 <h2>Past Dates</h2>
                 <div class="box">
                     <ul class="dates past">
-                        <li class="past clearfix">
-                            <div class="date">04.07.2013</div>
-                            <div class="desc">"Umsont und Drinnen Club" @ E-Werk Erlangen</div>
-                        </li>
-                        <li class="past clearfix">
-                            <div class="date">22.06.2013</div>
-                            <div class="desc">"Alpha Rock" @ Omega Erlangen /w <a href="https://www.facebook.com/BeatThePhobia" target="_blank">Beat the Phobia</a> and <a href="https://www.facebook.com/ehsyndrome">Exploding Head Syndrome</a></div>
-                        </li>
-                        <li class="past clearfix">
-                            <div class="date">15.06.2013</div>
-                            <div class="desc">"Rock im Bad" @ Naturbad Postbauer-Heng</div>
-                        </li>
-                        <li class="past clearfix">
-                            <div class="date">30.03.2013</div>
-                            <div class="desc">"Like a crashing Loco" @ Klüpfel Nürnberg /w <a href="https://www.facebook.com/BandMeloco" target="_blank">Meloco</a> and <a href="http://www.crashingcrew.com/" target="_blank">Crashing Crew</a></div>
-                        </li>
+                        <?php
+                        foreach(parseDates($dates, 'past') as $date) {
+                            $a = $date['date'];
+
+                            echo '<li class="past clearfix">';
+                            echo '<div class="date">' . $a->format('d.m.Y') . '</div>';
+                            echo '<div class="desc">' . $date['desc'] . '</div>';
+                            echo '</li>';
+                        }
+                        ?>
                     </ul>
                 </div>
 
