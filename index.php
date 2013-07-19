@@ -41,9 +41,12 @@ function parseDates($dates, $when) {
 
                 <h2>Dates</h2>
                 <div class="box">
-                    <ul class="dates">
-                        <?php
-                            foreach(parseDates($dates, 'new') as $date) {
+                    <?php
+                        $parsedDates = parseDates($dates, 'new');
+
+                        if(count($parsedDates) > 0) {
+                            echo "<ul class=\"dates\">";
+                            foreach($parsedDates as $date) {
                                 $a = $date['date'];
 
                                 echo '<li class="clearfix">';
@@ -51,8 +54,11 @@ function parseDates($dates, $when) {
                                 echo '<div class="desc">' . $date['desc'] . '</div>';
                                 echo '</li>';
                             }
-                        ?>
-                    </ul>
+                            echo "</ul>";
+                        } else {
+                            echo '...no upcoming dates...';
+                        }
+                    ?>
                 </div>
 
                 <div class="clearfix"></div>
