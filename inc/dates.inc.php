@@ -1,6 +1,9 @@
 <?php
 
 return Array(
+    Array('date' => new DateTime('03.08.2013'),
+        'desc' => 'Unplugged Session @ Granny Macs Erlangen /w <a href="https://www.facebook.com/lexandlian">Lex &amp; Lian</a>'
+    ),
     Array('date' => new DateTime('20.07.2013'),
           'desc' => '<a href="http://www.pyraser-classic-rock.de/">Pyraser Classic Rock Night</a> @ Brauereigutshof Pyras /w <a href="http://www.doropesch.com/">Doro</a>, <a href="http://www.rage-on.de/">Rage</a>, Krokus and others.'
     ),
