@@ -1,6 +1,12 @@
 <?php
 
 return Array(
+    Array('date' => new DateTime('23.01.2014'),
+        'desc' => 'Umsonst und Drinen Club @ E-Werk Erlangen'
+    ),
+    Array('date' => new DateTime('23.11.2013'),
+        'desc' => 'Emergenza @ Luise Nürnberg'
+    ),
     Array('date' => new DateTime('03.08.2013'),
         'desc' => 'Unplugged Session @ Granny Macs Erlangen /w <a href="https://www.facebook.com/lexandlian">Lex &amp; Lian</a>'
     ),
