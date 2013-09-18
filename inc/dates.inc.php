@@ -2,7 +2,7 @@
 
 return Array(
     Array('date' => new DateTime('23.01.2014'),
-        'desc' => 'Umsonst und Drinen Club @ E-Werk Erlangen'
+        'desc' => 'Umsonst und Drinnen Club @ E-Werk Erlangen'
     ),
     Array('date' => new DateTime('23.11.2013'),
         'desc' => 'Emergenza @ Luise Nürnberg'
