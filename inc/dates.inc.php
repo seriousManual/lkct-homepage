@@ -5,7 +5,7 @@ return Array(
         'desc' => 'Umsonst und Drinnen Club @ E-Werk Erlangen'
     ),
     Array('date' => new DateTime('12.12.2013'),
-        'desc' => 'Klüpfel Nürnberg /w <a href="https://www.facebook.com/admin.headphones">The Headphones</a>'
+        'desc' => 'Klüpfel Nürnberg /w <a href="http://www.headphones-band.de/index.php">The Headphones</a>'
     ),
     Array('date' => new DateTime('23.11.2013'),
         'desc' => 'Emergenza @ Luise Nürnberg'
