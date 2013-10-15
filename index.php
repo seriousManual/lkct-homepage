@@ -19,7 +19,7 @@
         <div id="main">
             <div id="cat"></div>
             <div id="content">
-                <h1>Like A Cat</h1>
+                <h1>Like a Cat</h1>
                 <div id="nav">
                     <ul>
                         <li><a href="#band">Band</a></li>
