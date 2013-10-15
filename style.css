@@ -4,6 +4,10 @@ body {
     font-family: 'Open Sans', 'Verdana','Arial','Helvetica', sans-serif;
 }
 
+p {
+    margin-bottom:20px;
+}
+
 #main {
     position:relative;
 }
@@ -54,6 +58,11 @@ h2 {
     border-left:4px solid #b2b2b2;
     padding-left:10px;
     min-height:400px;
+    max-width:500px;
+}
+
+#body a {
+    color: #ae0303;
 }
 
 .page {
