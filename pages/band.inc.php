@@ -1,3 +1,3 @@
-<div id="pageBand" class="page">
+<div id="band" class="page">
     band
 </div>

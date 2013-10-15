@@ -6,4 +6,14 @@ $(document).ready(function() {
     }, function() {
         $(this).css('background-image', 'url(cat.jpg)');
     });
+
+    $('#nav a').click(function() {
+        var hash = $(this).attr('href');
+
+        $('.page').hide();
+        $(hash).show();
+    });
+
 });
+
+//window.location.hash

@@ -1,3 +1,3 @@
-<div id="pagePics" class="page">
+<div id="pics" class="page">
     pics
 </div>
