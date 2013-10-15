@@ -19,11 +19,14 @@ body {
     background-image:url(pics/cat.png);
     background-position:left top;
     background-repeat: no-repeat;
+
+    border:1px solid blue;
 }
 
 #content {
     margin-top:30px;
     margin-left:400px;
+    border:1px solid red;
 }
 
 #foot {
@@ -37,24 +40,26 @@ h1 {
     color: #ae0303;
 }
 
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: #b2b2b2;
-    font-size:2.0em;
-    margin-top:20px;
-    width:150px;
+#nav {
+    width:200px;
+    border:1px solid lime;
     float:left;
 }
 
-.box {
-    width:550px;
+#body {
     float:left;
-    border-left:4px solid #ccc;
-    margin-top:20px;
-    min-height:60px;
-    padding-left:10px;
-    font-size:1em;
-    color:#000;
+    border: 1px solid yellow;
+}
+
+#nav a {
+    font-family: 'Open Sans', sans-serif;
+    color: #b2b2b2;
+    font-size:2.0em;
+    text-decoration:none;
+}
+
+#nav li {
+    margin-bottom:10px;
 }
 
 .box a {
