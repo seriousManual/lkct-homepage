@@ -20,7 +20,7 @@
     }
 ?>
 
-<div id="dates" class="page">
+<div id="pagedates" class="page">
     <h2>Coming Up</h2>
     <?php
         $parsedDates = parseDates($dates, 'new');

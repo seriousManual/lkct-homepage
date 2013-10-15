@@ -8,23 +8,23 @@ $(document).ready(function() {
     });
 
     $('#nav a').click(function() {
-        var hash = $(this).attr('href');
+        var hash = $(this).attr('href').split('#')[1];
 
         $('.page').hide();
-        $(hash).show();
+        $('#page' + hash).show();
         $('#nav a').removeClass('high');
-        $('#nav a[href=' + hash + ']').addClass('high');
+        $('#nav a[href=#' + hash + ']').addClass('high');
     });
 
     initial();
 });
 
 function initial() {
-    var hash = window.location.hash;
+    var hash = window.location.hash.split('#')[1];
 
     if(hash) {
-        $(hash).show();
-        $('#nav a[href=' + hash + ']').addClass('high');
+        $('#page' + hash).show();
+        $('#nav a[href=#' + hash + ']').addClass('high');
     } else {
         $('#band').show();
         $('#nav a[href=#band]').addClass('high');

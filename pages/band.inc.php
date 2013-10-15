@@ -1,4 +1,4 @@
-<div id="band" class="page" xmlns="http://www.w3.org/1999/html">
+<div id="pageband" class="page" xmlns="http://www.w3.org/1999/html">
     <h2>Das ist Like A Cat!!!</h2>
 
     <p>Im Sommer 2012 gegründet und im Frühling 2013 das erst mal Live on Stage.</p>
