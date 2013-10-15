@@ -38,7 +38,7 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     margin:30px 0px 20px 0px;
     font-size:5em;
-    color: #00FF58;
+    color: #00ff00;
 }
 
 h2 {
@@ -63,7 +63,7 @@ h2 {
 }
 
 #body a {
-    color: #00FF58;
+    color: #00ff00;
 }
 
 #body img {
@@ -83,7 +83,7 @@ h2 {
 }
 
 #nav a.high {
-    color: #00FF58;
+    color: #00ff00;
 }
 
 #nav li {
@@ -91,7 +91,7 @@ h2 {
 }
 
 .box a {
-    color: #00FF58;
+    color: #00ff00;
     text-decoration:none;
 }
 
@@ -105,7 +105,7 @@ h2 {
     float:left;
     text-align:right;
     font-weight:bold;
-    color:#00FF58;
+    color:#00ff00;
 }
 
 .dates .desc {
