@@ -28,7 +28,7 @@ function initial() {
         $('#page' + hash).show();
         $('#nav a[href=#' + hash + ']').addClass('high');
     } else {
-        $('#band').show();
+        $('#pageband').show();
         $('#nav a[href=#band]').addClass('high');
     }
 }
