@@ -21,6 +21,7 @@
 ?>
 
 <div id="dates" class="page">
+    <h2>Coming Up</h2>
     <?php
         $parsedDates = parseDates($dates, 'new');
 
@@ -39,7 +40,8 @@
             echo '...no upcoming dates...';
         }
     ?>
-
+    <br><br>
+    <h2>Past Dates</h2>
     <ul class="dates past">
         <?php
             foreach(parseDates($dates, 'past') as $date) {

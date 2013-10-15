@@ -12,8 +12,23 @@ $(document).ready(function() {
 
         $('.page').hide();
         $(hash).show();
+        $('#nav a').removeClass('high');
+        $('#nav a[href=' + hash + ']').addClass('high');
     });
 
+    initial();
 });
+
+function initial() {
+    var hash = window.location.hash;
+
+    if(hash) {
+        $(hash).show();
+        $('#nav a[href=' + hash + ']').addClass('high');
+    } else {
+        $('#band').show();
+        $('#nav a[href=#band]').addClass('high');
+    }
+}
 
 //window.location.hash
