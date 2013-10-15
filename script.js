@@ -14,6 +14,8 @@ $(document).ready(function() {
         $('#page' + hash).show();
         $('#nav a').removeClass('high');
         $('#nav a[href=#' + hash + ']').addClass('high');
+
+        _gaq.push(['_trackPageview', '/' + hash]);
     });
 
     initial();
@@ -30,5 +32,3 @@ function initial() {
         $('#nav a[href=#band]').addClass('high');
     }
 }
-
-//window.location.hash

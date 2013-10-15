@@ -8,6 +8,10 @@
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
 
+        <script type="text/javascript">
+            var _gaq = [];
+        </script>
+
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="script.js"></script>
     </head>
