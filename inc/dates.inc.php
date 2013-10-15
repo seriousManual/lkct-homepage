@@ -8,6 +8,9 @@ return Array(
         'desc' => 'Klüpfel Nürnberg /w <a href="http://www.headphones-band.de/index.php">The Headphones</a>'
     ),
     Array('date' => new DateTime('23.11.2013'),
+        'desc' => 'Newcomerfestival @ E-Werk Erlangen'
+    ),
+    Array('date' => new DateTime('22.11.2013'),
         'desc' => 'Emergenza @ Luise Nürnberg'
     ),
     Array('date' => new DateTime('03.08.2013'),
