@@ -7,7 +7,7 @@
 
     <img src="band.jpg">
 
-    <p>Was entsteht, wenn ein Hardcore Schlagzeuger, einen typischen Hardrock Gitarrist und eine Sängerin mit einer klaren warmen Stimme zusammen kommen, ist schwer zu beschreiben aber schön anzuhören...</p>
+    <p>Was entsteht, wenn ein Hardcore Schlagzeuger, einen typischen Hardrock Gitarrist und eine Sängerin mit einer klaren warmen Stimme zusammen kommen, ist schwer zu beschreiben aber schön anzuhören.</p>
 
     <p><em>Like a Cat</em> schafft es jeden Song anders klingen zu lassen ohne dabei den roten Faden zu verlieren. Live erwartet den Zuschauer eine abwechslungsreiche Show von schnellen Songs mit Breakdown-Parts bishin zu gefühlvollen Balladen. Sie bedienen sich an nahezu allen Stilmitteln der verschiedener Rock-Genren. Diese Mischung macht <em>Like a Cat</em> immer interessant und nie langweilig, da man nie weiß was als nächstes kommt.</p>
 </div>
