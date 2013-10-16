@@ -71,6 +71,10 @@ h2 {
     margin-bottom:10px;
 }
 
+#body em {
+    font-style: italic;
+}
+
 .page {
     display:none;
 }
