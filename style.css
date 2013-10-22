@@ -48,6 +48,13 @@ h2 {
     margin-bottom:18px;
 }
 
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #b2b2b2;
+    font-size:1.4em;
+    margin-bottom:10px;
+}
+
 #nav {
     width:150px;
     float:left;
