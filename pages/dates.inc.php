@@ -1,7 +1,7 @@
 <?php
     $dates = include('./inc/dates.inc.php');
 
-    function parseDates($dates, $when) {
+    function parseDates($dates, $when, $dir) {
         $now = new DateTime();
         $now->setTime(0,0,0);
         $res = Array();
@@ -16,6 +16,10 @@
             }
         }
 
+        usort($res, function(Array $a, Array $b) use ($dir) {
+            return ($a['date']->getTimestamp() - $b['date']->getTimestamp()) * ($dir ? -1 : 1);
+        });
+
         return $res;
     }
 ?>
@@ -23,7 +27,7 @@
 <div id="pagedates" class="page">
     <h2>Coming Up</h2>
     <?php
-        $parsedDates = parseDates($dates, 'new');
+        $parsedDates = parseDates($dates, 'new', false);
 
         if(count($parsedDates) > 0) {
             echo "<ul class=\"dates\">";
@@ -44,7 +48,7 @@
     <h2>Past Dates</h2>
     <ul class="dates past">
         <?php
-            foreach(parseDates($dates, 'past') as $date) {
+            foreach(parseDates($dates, 'past', true) as $date) {
                 $a = $date['date'];
 
                 echo '<li class="past clearfix">';
