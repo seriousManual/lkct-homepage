@@ -7,6 +7,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="fancybox.css">
 
         <script type="text/javascript">
             var _gaq = [];
@@ -14,6 +15,7 @@
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="script.js"></script>
+        <script src="fancybox.js"></script>
     </head>
     <body>
         <div id="main">
