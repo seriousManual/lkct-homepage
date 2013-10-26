@@ -18,11 +18,16 @@ $(document).ready(function() {
 
     $(".fancybox").fancybox();
 
-    $('#cat').hover(triggerCat.bind(null, true), triggerCat.bind(null, false));
+    $('#cat').hover(function() {
+        _gaq.push(['_trackEvent', 'cat', 'mouseOver', null, null, true]);
+
+        triggerCat(true);
+    }, triggerCat.bind(null, false));
 
     setTimeout(function() {
         if(catTriggered) return;
 
+        _gaq.push(['_trackEvent', 'cat', 'timeout', null, null, true]);
         triggerCat(true);
 
         setTimeout(triggerCat.bind(null, false), 500);
