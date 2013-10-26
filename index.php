@@ -14,6 +14,7 @@
         </script>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="jquery.hashChanged.js"></script>
         <script src="script.js"></script>
         <script src="fancybox.js"></script>
     </head>
