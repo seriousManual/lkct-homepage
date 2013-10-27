@@ -29,13 +29,13 @@ function triggerCat(frightened) {
     catTriggered = true;
 
     if(frightened) {
-        $('#cat').css('background-image', 'url(cat_angry.jpg)');
+        $('#cat').css('background-position', '-375px 0px');
     } else {
-        $('#cat').css('background-image', 'url(cat.jpg)');
+        $('#cat').css('background-position', '0px 0px');
     }
 }
 
-function hashChange(hash111) {
+function hashChange() {
     var hash = getHash();
 
     if(!hash) {
