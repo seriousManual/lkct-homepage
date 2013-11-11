@@ -4,6 +4,9 @@ return Array(
     Array('date' => new DateTime('23.01.2014'),
         'desc' => 'Umsonst und Drinnen Club @ E-Werk Erlangen'
     ),
+    Array('date' => new DateTime('29.11.2013'),
+          'desc' => 'Akkustik Session @ Coalclub Nürnberg'
+    ),
     Array('date' => new DateTime('12.12.2013'),
         'desc' => 'Klüpfel Nürnberg /w <a href="http://www.headphones-band.de/index.php">The Headphones</a>'
     ),
