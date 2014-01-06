@@ -2,10 +2,10 @@
 
 return Array(
     Array('date' => new DateTime('22.02.2014'),
-        'desc' => 'Quibble Nürnberg'
+        'desc' => 'Quibble Nürnberg /w Just a phase'
     ),
     Array('date' => new DateTime('17.01.2014'),
-        'desc' => 'Omega Erlangen /w <a href="https://www.facebook.com/moustache.mystery">Moustache Mystery</a>'
+        'desc' => 'Omega Erlangen /w <a href="https://www.facebook.com/moustache.mystery">Moustache Mystery</a> and <a href="https://www.facebook.com/foundationrocks">Foundation</a>'
     ),
     Array('date' => new DateTime('29.11.2013'),
           'desc' => 'Akkustik Session @ Coalclub Nürnberg'
