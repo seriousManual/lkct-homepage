@@ -1,8 +1,11 @@
 <?php
 
 return Array(
+    Array('date' => new DateTime('06.02.2014'),
+        'desc' => 'Umsonst &amp; Drinnen @ E-Werk Erlangen'
+    ),
     Array('date' => new DateTime('22.02.2014'),
-        'desc' => 'Quibble Nürnberg /w Just a phase'
+        'desc' => 'Quibble Nürnberg /w <a href="https://www.facebook.com/pages/Just-A-Phase/124569440934125">Just a phase</a> and Störfaktor'
     ),
     Array('date' => new DateTime('17.01.2014'),
         'desc' => 'Omega Erlangen /w <a href="https://www.facebook.com/moustache.mystery">Moustache Mystery</a> and <a href="https://www.facebook.com/foundationrocks">Foundation</a>'
