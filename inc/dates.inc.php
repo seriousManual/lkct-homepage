@@ -1,6 +1,9 @@
 <?php
 
 return Array(
+    Array('date' => new DateTime('30.04.2014'),
+        'desc' => 'Emergenza @ hirsch Nürnberg'
+    ),
     Array('date' => new DateTime('06.02.2014'),
         'desc' => 'Umsonst &amp; Drinnen @ E-Werk Erlangen'
     ),
