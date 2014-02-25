@@ -32,7 +32,7 @@ return Array(
           'desc' => '<a href="http://www.pyraser-classic-rock.de/">Pyraser Classic Rock Night</a> @ Brauereigutshof Pyras /w <a href="http://www.doropesch.com/">Doro</a>, <a href="http://www.rage-on.de/">Rage</a>, Krokus and others.'
     ),
     Array('date' => new DateTime('04.07.2013'),
-          'desc' => 'Umsont und Drinnen Club" @ E-Werk Erlangen'
+          'desc' => '"Umsont und Drinnen Club" @ E-Werk Erlangen'
     ),
     Array('date' => new DateTime('22.06.2013'),
           'desc' => '"Alpha Rock" @ Omega Erlangen /w <a href="https://www.facebook.com/BeatThePhobia" target="_blank">Beat the Phobia</a> and <a href="https://www.facebook.com/ehsyndrome">Exploding Head Syndrome</a>'
