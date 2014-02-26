@@ -1,6 +1,9 @@
 <?php
 
 return Array(
+    Array('date' => new DateTime('17.05.2014'),
+          'desc' => 'Akkustik Session @ Coalclub Nürnberg'
+    ),
     Array('date' => new DateTime('30.04.2014'),
         'desc' => 'Emergenza @ hirsch Nürnberg'
     ),
