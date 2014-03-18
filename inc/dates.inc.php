@@ -1,6 +1,9 @@
 <?php
 
 return Array(
+    Array('date' => new DateTime('31.05.2014'),
+          'desc' => 'Neumarkt'
+    ),
     Array('date' => new DateTime('11.04.2014'),
           'desc' => 'Klüpfel Open-Air Warm-Up @ Luise Nürnberg'
     ),
