@@ -3,8 +3,6 @@ var catTriggered = false;
 $(window).hashchange(hashChange);
 
 $(document).ready(function() {
-    $img = $('<img />').attr('src', 'cat_angry.jpg');
-
     hashChange();
 
     $(".fancybox").fancybox();
