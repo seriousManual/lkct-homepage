@@ -6,7 +6,7 @@
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="reset.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css?rev=12">
         <link rel="stylesheet" type="text/css" href="fancybox.css">
 
         <script type="text/javascript">
